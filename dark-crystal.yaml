@@ -1,0 +1,67 @@
+# Dark Crystal theme
+# Creator: skullface
+# Version: 0.0.2
+#
+Skull Theme:
+  modes:
+    dark:
+      #
+      # [Theme] Fonts
+      font-stack: "'-apple-system', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+      #
+      # [Theme] Colors
+      bg-primary: "#000"
+      bg-secondary: "#111"
+      bg-tertiary: "#1a1a1a"
+      bg-quarternary: "#2b2b2b"
+      text-primary: "#eee"
+      text-secondary: "#888"
+      text-tertiary: "#444"
+      text-ui-heading: var(--text-primary)
+      primary-color: "#59c4e5"
+      accent-color: "#ffa500"
+      #
+      # [Overrides] Colors
+      lovelace-background: var(--bg-primary)
+      primary-background-color: var(--bg-primary)
+      secondary-background-color: var(--bg-tertiary) # UI
+      paper-item-icon-color: var(--text-secondary)
+      #light-primary-color:
+      divider-color: var(--bg-quarternary)
+      #
+      # [Overrides] Colors: Header
+      app-header-background-color: var(--bg-primary)
+      app-header-text-color: var(--text-ui-heading)
+      app-header-selection-bar-color: var(--primary-color)
+      #
+      # [Overrides] Colors: Sidebar
+      sidebar-icon-color: var(--text-secondary)
+      sidebar-text-color: var(--text-ui-heading)
+      sidebar-background-color: var(--bg-primary)
+      #
+      # [Overrides] Cards
+      ha-card-background: var(--bg-secondary)
+      ha-card-box-shadow: "0 2px 0 rgba(43, 43, 43, 0.33)"
+      #ha-card-border-radius:
+      ha-card-border-width: 0
+      ha-card-border-color: var(--divider-color)
+      #
+      # [Overrides] Fonts
+      paper-font-_font-family: var(--font-stack)
+      paper-font-common-base_-_font-family: var(--font-stack)
+      paper-font-body1_-_font-family: var(--font-stack)
+      mdc-typography-font-family: var(--font-stack) # UI
+      mdc-typography-body2-font-family: var(--font-stack) # UI
+      #
+      # [Overrides] Weights
+      mdc-typography-subtitle1-font-weight: 600
+      #
+      # [Overrides] Buttons
+      #paper-item-icon-color: "red"
+      mdc-typography-button-text-transform: "normal"
+      mdc-typography-button-font-size: "initial"
+      mdc-typography-button-font-weight: 600
+      mdc-typography-button-letter-spacing: 0em
+      #
+      # [Overrides] States
+      state-icon-unavailable-color: var(--text-tertiary)
